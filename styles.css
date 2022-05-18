@@ -1,0 +1,110 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    margin: 100px 200px 100px 300px;
+    width: 40rem;
+    height: 25rem;
+    justify-content: center;
+
+    display: flex;
+    grid-template-columns: auto auto auto;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 15rem;
+    height: 25rem;
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    ;
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+h1,
+p {
+    color: white;
+}
+
+.sedans {
+
+    text-align: left;
+    padding: 2rem;
+}
+
+.suv {
+
+    text-align: left;
+    padding: 2rem;
+}
+
+.luxury {
+
+    text-align: left;
+
+    padding: 2rem;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: white;
+
+    bottom: 80px;
+    margin-top: 56px;
+    padding-top: 5px;
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);
+    /* right: 632px; */
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);
+
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+
+}
+
+@media screen and (max-width: 780px) {
+ 
+
+  .box {width: 100%    ;
+      flex-direction: column;
+  }
+
+  .box1 {
+      order: 1;
+  }
+
+  .box2 {
+      order: 2;
+  }
+
+  .box3 {
+      order: 3;
+  }
+
+}
